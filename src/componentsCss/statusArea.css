@@ -1,0 +1,29 @@
+.StatusSide{
+    height:30vh;
+}
+
+.Status{
+    background-color:var(--status-bg-color);
+    border-radius: 10px;
+    width:300px;
+    height:100px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color:  var(--status-text-color);
+    transition: ease-out 0.3s;
+    box-shadow: var(--status-box-sdw);
+    outline:none;
+    border:none;
+    animation: blinker  1s linear infinite;
+}
+
+.Status:hover{
+    box-shadow: var(--status-hvr-box-sdw);
+    color:var(--status-hvr-text-color);
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0.6;
+    }
+}

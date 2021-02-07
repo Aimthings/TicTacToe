@@ -1,0 +1,19 @@
+.game {
+  background-color:var(--homepage-bg-color);
+  height:100%;   
+} 
+
+.BoxandStatus{
+  height:75%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items:center;  
+}
+
+.PlayBox{
+  height:50vh;
+  display:flex;
+  flex-direction: column;
+} 
+
+

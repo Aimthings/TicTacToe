@@ -1,0 +1,27 @@
+.Feature-Buttons{
+  padding: 80px 2px;
+  display: inline-flex;
+  justify-content:space-around;
+}
+
+.feature{
+  height:50px;
+  width: 90px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  background-image: var(--feature-bg-img-gradient);
+  border-radius: 5px;
+  color:var(--feature-text-color);
+  box-shadow:var(--feature-box-sdw);
+}
+  
+button.feature[value='Play Again']{
+  opacity:0;
+  cursor:default;
+}
+
+button[disabled]{
+  opacity:0.6;
+  cursor:not-allowed;
+}
